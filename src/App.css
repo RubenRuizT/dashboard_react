@@ -1,8 +1,4 @@
+/* this is the div flex parent */
 .container{
     display:flex; 
 }  
-
-.others{
-    flex:7;
-    background-color:white;
-} 

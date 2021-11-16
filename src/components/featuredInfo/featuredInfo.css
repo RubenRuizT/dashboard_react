@@ -1,0 +1,18 @@
+.parent{
+    display:flex;
+    flex-direction:row;
+}
+
+.child{
+    flex:1;
+    width: 600px;     
+    height: 800px;     
+    border-radius:5%;
+    background-color: rgb(242, 242, 242);
+    margin:20px;
+}
+
+
+.child:nth-child(1){
+    flex:1.5;
+}
